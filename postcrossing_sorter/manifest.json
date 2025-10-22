@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Postcrossing Tab Sorter",
+  "version": "1.0",
+  "description": "Sorts Postcrossing postcard tabs by their postcard number.",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "Sort Postcrossing Tabs"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
